@@ -1,4 +1,4 @@
-# MD-CONFIRM
+# MD-SUBMIT
 
 
 
@@ -6,7 +6,7 @@
 
 ``` bash
 
-bower install md-confirm --save
+bower install md-submit --save
 
 ```
 
@@ -14,9 +14,9 @@ bower install md-confirm --save
 
 ```html
 
-<link rel="import" href="bower_components/md-confirm/md-confirm.html">
+<link rel="import" href="bower_components/md-submit/md-submit.html">
 
-<md-confirm></md-confirm>
+<md-submit></md-submit>
 ```
 
 
