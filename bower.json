@@ -1,6 +1,6 @@
 {
   "name": "md-submit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "S. Francis"
   ],
@@ -13,7 +13,7 @@
   ],
   "main": "md-confirm.html",
   "license": "MIT",
-  "homepage": "https://github.com/EllipticalElements/md-submit/",
+  "homepage": "https://github.com/EllipticalElements/md-submit",
   "ignore": [
     "/.*",
     "/test/",
