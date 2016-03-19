@@ -17,6 +17,7 @@
         padding: 0.81em 0.57em;
         background-color: transparent;
         border-color: transparent;
+        margin:0 !important;
     }
     md-submit paper-button button::-moz-focus-inner {
         border: 0;
@@ -39,6 +40,10 @@
         is: 'md-submit',
 
         properties: {
+            cssClass:{
+                type:String,
+                value:null
+            }
 
         },
 
@@ -47,7 +52,17 @@
         },
 
         ready:function(){
+            this._setButtonClass();
+        },
 
+        _setButtonClass:function(){
+            if(this.cssClass){
+                var css=this.cssClass.split(' ');
+                var button=this.$.submitButton;
+                css.forEach(function(c){
+                    button.classList.add(c);
+                });
+            }
         },
 
         _onClick:function(){
