@@ -43,8 +43,15 @@
             cssClass:{
                 type:String,
                 value:null
+            },
+            raised:{
+                type:Boolean,
+                value:false
+            },
+            elevation:{
+                type:Number,
+                value:1
             }
-
         },
 
         listeners:{
@@ -53,6 +60,7 @@
 
         ready:function(){
             this._setButtonClass();
+            if(this.raised) this._setRaisedButton();
         },
 
         _setButtonClass:function(){
@@ -63,6 +71,10 @@
                     button.classList.add(c);
                 });
             }
+        },
+
+        _setRaisedButton:function(){
+            this.$.paperButton.setAttribute('elevation',this.elevation);
         },
 
         _onClick:function(){
