@@ -81,6 +81,11 @@
         _onClick:function(){
             var button=this.$.submitButton;
             button.click();
+        },
+
+        setButtonCss:function(val){
+            this.cssClass=val;
+            this._setButtonClass();
         }
     });
 
