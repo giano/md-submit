@@ -1,11 +1,11 @@
 {
-  "name": "md-submit",
-  "description": "Form submit paper button",
+  "name": "sv-submit",
+  "description": "Form submit paper button modded from md-submit",
   "version": "1.2.4",
-  "author": "S. Francis",
+  "author": ["S. Francis", "S. Valicchia"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EllipticalElements/md-submit.git"
+    "url": "https://github.com/giano/sv-submit.git"
   }
 }

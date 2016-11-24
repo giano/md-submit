@@ -1,6 +1,6 @@
-# MD-SUBMIT
+# SV-SUBMIT
 
-
+A slightly modded version of MD-SUBMIT
 
 ## Installation
 
@@ -14,10 +14,7 @@ bower install md-submit --save
 
 ```html
 
-<link rel="import" href="bower_components/md-submit/md-submit.html">
+<link rel="import" href="bower_components/sv-submit/sv-submit.html">
 
-<md-submit></md-submit>
+<sv-submit></sv-submit>
 ```
-
-
-
