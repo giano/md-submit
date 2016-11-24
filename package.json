@@ -1,7 +1,7 @@
 {
   "name": "sv-submit",
   "description": "Form submit paper button modded from md-submit",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": ["S. Francis", "S. Valicchia"],
   "license": "MIT",
   "repository": {
